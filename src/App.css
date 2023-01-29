@@ -1,0 +1,30 @@
+body,
+html {
+  height: 100%;
+  background: #209cee;
+}
+.fileupload {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.inputfile,
+.submit {
+  padding: 5px;
+  border: 2px solid lightgray;
+}
+.submit:hover {
+  background: orange;
+  border: 2px solid white;
+  cursor: pointer;
+}
+img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 10px;
+}
+img:hover{
+  border: 2px solid orange;
+}
